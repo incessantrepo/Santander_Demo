@@ -1,0 +1,14 @@
+CREATE TABLE IF NOT EXISTS `secondarySchema`.`SAN_Employee` (
+  `EmployeeId` int(11) NOT NULL AUTO_INCREMENT,
+  `Title` varchar(30) DEFAULT NULL,
+  `FirstName` varchar(30) DEFAULT NULL,
+  `MiddleName` varchar(2) DEFAULT NULL,
+  `LastName` varchar(30) DEFAULT NULL,
+  `BiologicalSex` varchar(30) DEFAULT NULL,
+  `Age` int(11) DEFAULT NULL,
+  primary key (`EmployeeId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `secondarySchema`.`SAN_Employee` (Title,FirstName,MiddleName,LastName,BiologicalSex,Age) VALUES
+('MR','Simranjit','','Singh','M',31),
+('MR','Simranjit','','Singh','M',31);
