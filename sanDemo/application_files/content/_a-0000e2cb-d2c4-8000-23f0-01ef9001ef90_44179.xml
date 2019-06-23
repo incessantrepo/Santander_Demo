@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_44167</versionUuid>
+    <versionUuid>_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_44183</versionUuid>
     <constant>
-        <name>EAP_ETst1</name>
-        <uuid>_a-0000e255-ca76-8000-23f0-01ef9001ef90_40957</uuid>
+        <name>EAP_NEW_OBJECT</name>
+        <uuid>_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_44179</uuid>
         <description></description>
         <parentUuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_48676</parentUuid>
         <visibility>
@@ -20,7 +20,7 @@
                 <name>int</name>
                 <namespace>http://www.w3.org/2001/XMLSchema</namespace>
             </type>
-            <value>2154555</value>
+            <value>2</value>
         </typedValue>
         <isEnvironmentSpecific>false</isEnvironmentSpecific>
     </constant>
@@ -51,12 +51,6 @@
         </role>
     </roleMap>
     <history>
-        <historyInfo versionUuid="_a-0000e255-ca76-8000-23f0-01ef9001ef90_40961"/>
-        <historyInfo versionUuid="_a-0000e255-ca76-8000-23f0-01ef9001ef90_41165"/>
-        <historyInfo versionUuid="_a-0000e255-ca76-8000-23f0-01ef9001ef90_41750"/>
-        <historyInfo versionUuid="_a-0000e255-ca76-8000-23f0-01ef9001ef90_41967"/>
-        <historyInfo versionUuid="_a-0000e255-ca76-8000-23f0-01ef9001ef90_42170"/>
-        <historyInfo versionUuid="_a-0000e255-ca76-8000-23f0-01ef9001ef90_42522"/>
-        <historyInfo versionUuid="_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_44167"/>
+        <historyInfo versionUuid="_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_44183"/>
     </history>
 </contentHaul>
